@@ -15,6 +15,7 @@ let HomePage = new HomeProducts(page);
 let CheckOutPage = new CheckOut(page);
   // login to home page
   await page.goto('https://www.saucedemo.com/')
+  
     // await page.goto('https://demoapps.qspiders.com/ui?scenario=1')
   // validate login
   //   console.log(data);
